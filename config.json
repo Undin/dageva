@@ -36,9 +36,6 @@
     "gaussianNB : D => LD",
     "DT         : D => LD",
     "KNN        : D => LD",
-    "bagging    : D => LD",
-    "randomForest: D => LD",
-    "adaBoost   : D => LD",
     "xgboost    : D => LD",
     "vote : (V LD (S(S n))) => LD"
   ]
