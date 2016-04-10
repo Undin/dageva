@@ -29,15 +29,15 @@
     "MyList.nil : V a 0",
     "PCA : D => D",
     "kBest : D => D",
-    "kMeans : D => (V D (S(S n)))",
     "copy : D => (V D (S(S n)))",
     "SVC        : D => LD",
     "logR       : D => LD",
     "gaussianNB : D => LD",
     "DT         : D => LD",
     "KNN        : D => LD",
-    "xgboost    : D => LD",
-    "vote : (V LD (S(S n))) => LD"
+    "vote : (V LD (S(S n))) => LD",
+    "simpleStacking : (V LD (S(S n))) => LD",
+    "stacking : (V LD (S(S n))) => LD"
   ]
 
 }
